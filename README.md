@@ -1,8 +1,12 @@
-# React + Vite
+# React.js assignment for Gamyam.co
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Description:**
+This project was built using Vite as the build tool and React (a JavaScript library) for the user interface. Mantine was utilized for UI components, axios for API calls, and a responsive layout was developed.
 
-Currently, two official plugins are available:
+**Getting Started:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone this repository: `git clone https://github.com/MohdTahirMT/react-assignment-gamyam`
+2. Navigate to the project directory: `cd react-assignment-gamyam`
+3. Install dependencies: `npm install` or `yarn install`
+4. Start the development server: `npm run dev` or `yarn dev`
+5. Open your browser and visit `http://localhost:3000` to view the application.
