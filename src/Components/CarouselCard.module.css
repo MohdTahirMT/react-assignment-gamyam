@@ -1,0 +1,46 @@
+/* Styles for the card section */
+.cardSection {
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  position: relative; /* Set position to relative */
+  top: 20px; /* Move the section 20px from the top */
+  z-index: 99999; /* Set a high z-index to ensure it's on top */
+}
+
+/* Styles for the highway badge */
+.highwayBadge {
+  padding-inline: 10px; /* Horizontal padding */
+  padding-block: 3px; /* Vertical padding */
+  background-color: #ffde59; /* Background color */
+  border-bottom-right-radius: 50px; /* Rounded border bottom right */
+  border-top-right-radius: 50px; /* Rounded border top right */
+  position: absolute; /* Position absolutely */
+  left: 0; /* Align to the left */
+}
+
+/* Styles for the category badge */
+.categoryBadge {
+  padding: 0 3px 0 3px; /* Padding for top, right, bottom, left */
+  background-color: #000; /* Background color */
+  color: #fff; /* Text color */
+  position: absolute; /* Position absolutely */
+  right: 0; /* Align to the right */
+  bottom: 0; /* Align to the bottom */
+}
+
+/* Styles for the shareWish badge */
+.shareWishBadge {
+  position: absolute; /* Position absolutely */
+  right: 0; /* Align to the right */
+  margin-right: 10px; /* Margin from the right */
+}
+
+/* Styles for the rating text */
+.ratingText {
+  font-size: 16px; /* Font size */
+}
+
+/* Styles for the location text */
+.locationText {
+  font-size: 18px; /* Font size */
+}
