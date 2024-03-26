@@ -105,6 +105,7 @@ export function CarouselCard({ data }) {
       radius="md"
       withBorder
       padding="xl"
+      style={{ height: "100%" }}
     >
       {/* Card section of Carousel */}
       <Card.Section>
@@ -141,7 +142,14 @@ export function CarouselCard({ data }) {
 
       {/* Place Name (Village, Mandal, District) */}
       <Group justify="space-between" align="normal" mt="md">
-        <Text style={{ width: "80%", fontSize: "18px", fontWeight: 700 }}>
+        <Text
+          style={{
+            width: "80%",
+            fontSize: "18px",
+            fontWeight: 700,
+            overflow: "hidden",
+          }}
+        >
           {`${data?.village_name ?? null}, ${data?.mandal_name} ${
             data?.district_name
           }(dt)`}
